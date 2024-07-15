@@ -1,7 +1,14 @@
 ## Start
 add_subdirectory(AiDIN_Controller)
+add_subdirectory(AiDIN.m1_Controller)
+add_subdirectory(Example_Leg_InvDyn)
+add_subdirectory(JPos_Controller)
 ## End
 
+
+
+
+## unneccessary? 2024.07.15
 
 # cmake_minimum_required(VERSION 3.8)
 # project(user)

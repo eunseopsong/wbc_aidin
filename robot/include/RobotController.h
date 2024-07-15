@@ -25,7 +25,7 @@ public:
 
   virtual void initializeController() = 0;
 /**
- * Called one time every control loop 
+ * Called one time every control loop
  */
   virtual void runController() = 0;
   virtual void updateVisualization() = 0;
