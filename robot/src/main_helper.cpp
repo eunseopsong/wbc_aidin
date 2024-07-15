@@ -8,8 +8,8 @@
 #include <cassert>
 #include <iostream>
 
-// #include "HardwareBridge.h"
-// #include "SimulationBridge.h"
+#include "HardwareBridge.h"
+#include "SimulationBridge.h"
 #include "main_helper.h"
 #include "RobotController.h"
 #include "rclcpp/rclcpp.hpp"  // ROS1 -> ROS2: rclcpp 헤더 파일 포함

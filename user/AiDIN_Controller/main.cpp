@@ -14,6 +14,5 @@ int main(int argc, char** argv) {
   rclcpp::init(argc, argv);
   main_helper(argc, argv, new AiDIN_Controller()); // wbc_aidin/robot/src/main_helper.cpp
   rclcpp::shutdown();
-
   return 0;
 }

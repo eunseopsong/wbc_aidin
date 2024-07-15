@@ -25,5 +25,6 @@
     ],
     "files.associations": {
         "*.ipp": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
