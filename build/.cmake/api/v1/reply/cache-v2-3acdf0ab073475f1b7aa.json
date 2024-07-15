@@ -2618,6 +2618,18 @@
 			"value" : "/opt/ros/galactic/share/rmw_implementation_cmake/cmake"
 		},
 		{
+			"name" : "robot_lib_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;rclcpp::rclcpp;general;std_msgs::std_msgs__rosidl_generator_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_c;general;std_msgs::std_msgs__rosidl_typesupport_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_cpp;general;std_msgs::std_msgs__rosidl_typesupport_cpp;"
+		},
+		{
 			"name" : "rosgraph_msgs_DIR",
 			"properties" : 
 			[
@@ -2856,6 +2868,42 @@
 			],
 			"type" : "PATH",
 			"value" : "/opt/ros/galactic/share/tracetools/cmake"
+		},
+		{
+			"name" : "user_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/eunseop/dev_ws/src/wbc_aidin/build/user"
+		},
+		{
+			"name" : "user_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/eunseop/dev_ws/src/wbc_aidin/user"
+		},
+		{
+			"name" : "user_lib_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;rclcpp::rclcpp;general;std_msgs::std_msgs__rosidl_generator_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_c;general;std_msgs::std_msgs__rosidl_typesupport_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_cpp;general;std_msgs::std_msgs__rosidl_typesupport_cpp;"
 		},
 		{
 			"name" : "wbc_aidin_BINARY_DIR",

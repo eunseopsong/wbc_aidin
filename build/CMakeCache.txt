@@ -435,6 +435,9 @@ rmw_implementation_DIR:PATH=/opt/ros/galactic/share/rmw_implementation/cmake
 //The directory containing a CMake configuration file for rmw_implementation_cmake.
 rmw_implementation_cmake_DIR:PATH=/opt/ros/galactic/share/rmw_implementation_cmake/cmake
 
+//Dependencies for the target
+robot_lib_LIB_DEPENDS:STATIC=general;rclcpp::rclcpp;general;std_msgs::std_msgs__rosidl_generator_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_c;general;std_msgs::std_msgs__rosidl_typesupport_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_cpp;general;std_msgs::std_msgs__rosidl_typesupport_cpp;
+
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/galactic/share/rosgraph_msgs/cmake
 
@@ -494,6 +497,15 @@ std_msgs_DIR:PATH=/opt/ros/galactic/share/std_msgs/cmake
 
 //The directory containing a CMake configuration file for tracetools.
 tracetools_DIR:PATH=/opt/ros/galactic/share/tracetools/cmake
+
+//Value Computed by CMake
+user_BINARY_DIR:STATIC=/home/eunseop/dev_ws/src/wbc_aidin/build/user
+
+//Value Computed by CMake
+user_SOURCE_DIR:STATIC=/home/eunseop/dev_ws/src/wbc_aidin/user
+
+//Dependencies for the target
+user_lib_LIB_DEPENDS:STATIC=general;rclcpp::rclcpp;general;std_msgs::std_msgs__rosidl_generator_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_c;general;std_msgs::std_msgs__rosidl_typesupport_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_cpp;general;std_msgs::std_msgs__rosidl_typesupport_cpp;
 
 //Value Computed by CMake
 wbc_aidin_BINARY_DIR:STATIC=/home/eunseop/dev_ws/src/wbc_aidin/build

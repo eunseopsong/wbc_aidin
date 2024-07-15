@@ -41,14 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-uninstall-Debug-54188c5e7faec828ec2e.json",
+					"jsonFile" : "target-uninstall-Debug-11b025e317743fed74ef.json",
 					"name" : "uninstall",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "wbc_aidin_uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-wbc_aidin_uninstall-Debug-7cf3786c82227669be53.json",
+					"jsonFile" : "target-wbc_aidin_uninstall-Debug-5024b8a7b19558ed2ec1.json",
 					"name" : "wbc_aidin_uninstall",
 					"projectIndex" : 0
 				}
