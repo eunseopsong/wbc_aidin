@@ -1,0 +1,4 @@
+source;share/wbc_aidin/local_setup.bash
+source;share/wbc_aidin/local_setup.dsv
+source;share/wbc_aidin/local_setup.sh
+source;share/wbc_aidin/local_setup.zsh

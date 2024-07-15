@@ -1,0 +1,26 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/eunseop/dev_ws/build/yolov8_ros",
+        "/home/eunseop/dev_ws/install/yolov8_ros/lib/python3.8/site-packages",
+        "/home/eunseop/dev_ws/build/load_img",
+        "/home/eunseop/dev_ws/install/load_img/lib/python3.8/site-packages",
+        "/home/eunseop/dev_ws/build/img_process",
+        "/home/eunseop/dev_ws/install/img_process/lib/python3.8/site-packages",
+        "/home/eunseop/dev_ws/install/interfaces_pkg/lib/python3.8/site-packages",
+        "/home/eunseop/dev_ws/build/control_motor",
+        "/home/eunseop/dev_ws/install/control_motor/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/eunseop/dev_ws/build/yolov8_ros",
+        "/home/eunseop/dev_ws/install/yolov8_ros/lib/python3.8/site-packages",
+        "/home/eunseop/dev_ws/build/load_img",
+        "/home/eunseop/dev_ws/install/load_img/lib/python3.8/site-packages",
+        "/home/eunseop/dev_ws/build/img_process",
+        "/home/eunseop/dev_ws/install/img_process/lib/python3.8/site-packages",
+        "/home/eunseop/dev_ws/install/interfaces_pkg/lib/python3.8/site-packages",
+        "/home/eunseop/dev_ws/build/control_motor",
+        "/home/eunseop/dev_ws/install/control_motor/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ]
+}
