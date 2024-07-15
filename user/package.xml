@@ -3,9 +3,9 @@
 <package format="3">
   <name>user</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>user package</description>
   <maintainer email="lexondms1@g.skku.edu">eunseop</maintainer>
-  <license>TODO: License declaration</license>
+  <license>AiDIN_Robotics</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
