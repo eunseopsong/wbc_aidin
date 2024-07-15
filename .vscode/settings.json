@@ -22,5 +22,8 @@
         "/home/eunseop/dev_ws/build/control_motor",
         "/home/eunseop/dev_ws/install/control_motor/lib/python3.8/site-packages",
         "/opt/ros/galactic/lib/python3.8/site-packages"
-    ]
+    ],
+    "files.associations": {
+        "*.ipp": "cpp"
+    }
 }
