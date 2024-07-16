@@ -7,8 +7,8 @@
  */
 
 #include "rclcpp/rclcpp.hpp"
-#include "AiDIN_Controller.hpp"
-#include "main_helper.h"
+#include "AiDIN_Controller.hpp" // wbc_aidin/user/AiDIN_Controller/AiDIN_Controller.hpp
+#include "main_helper.h"        // wbc_aidin/robot/src/main_helper.cpp
 
 int main(int argc, char** argv) {
   rclcpp::init(argc, argv);
