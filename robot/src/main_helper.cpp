@@ -8,13 +8,13 @@
 #include <cassert>
 #include <iostream>
 
-#include "HardwareBridge.h"
-#include "SimulationBridge.h"
-#include "main_helper.h"
-#include "RobotController.h"
-#include "rclcpp/rclcpp.hpp"  // ROS1 -> ROS2: rclcpp 헤더 파일 포함
+#include "HardwareBridge.h"   // wbc_aidin/robot/include/HardwareBridge.h
+#include "SimulationBridge.h" // wbc_aidin/robot/include/SimulationBridge.h
+#include "main_helper.h"      // wbc_aidin/robot/include
+#include "RobotController.h"  // wbc_aidin/roobt/include
+#include "rclcpp/rclcpp.hpp"  //// ROS1 -> ROS2: rclcpp 헤더 파일 포함
 
-MasterConfig gMasterConfig;
+MasterConfig gMasterConfig;   // wbc_aidin/common/include/Types.h
 
 /*!
  * Print a message describing the command line flags for the robot program
@@ -71,7 +71,7 @@ int main_helper(int argc, char** argv, RobotController* ctrl) {
                                      ? "Development Simulation Driver"
                                      : "Quadruped Driver");
 
-  // 적절한 드라이버를 선택하여 실행
+  // dispatch the appropriate driver (적절한 드라이버를 선택하여 실행)
   if (gMasterConfig.simulated) {
     if(argc != 3) {
       printUsage();

@@ -11,12 +11,12 @@
 #ifndef PROJECT_LEGCONTROLLER_H
 #define PROJECT_LEGCONTROLLER_H
 
-#include "cppTypes.h"
-#include "leg_control_command_lcmt.hpp"
-#include "leg_control_data_lcmt.hpp"
-#include "Dynamics/Quadruped.h"
-#include "SimUtilities/SpineBoard.h"
-#include "SimUtilities/ti_boardcontrol.h"
+#include "cppTypes.h"                     // wbc_aidin/common/include
+#include "leg_control_command_lcmt.hpp"   // wbc_aidin/lcm-types//leg_control_command_lcmt.lcm (폴더 안에 있는 건 .lcm인데 왜 .hpp인지 모르겠음)
+#include "leg_control_data_lcmt.hpp"      // wbc_aidin/lcm-types//leg_control_data_lcmt.lcm (폴더 안에 있는 건 .lcm인데 왜 .hpp인지 모르겠음)
+#include "Dynamics/Quadruped.h"           // wbc_aidin/common/include/Dynamics/Quadrupred.h
+#include "SimUtilities/SpineBoard.h"      // wbc_aidin/common/include/SimUtilities/SpineBoard.h
+#include "SimUtilities/ti_boardcontrol.h" // wbc_aidin/common/include/SimUtilities/ti_boardcontrol.h
 
 /*!
  * Data sent from the control algorithm to the legs.

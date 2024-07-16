@@ -9,7 +9,7 @@
 #include "Types.h"           // wbc_aidin/common/include
 #include "RobotController.h" // wbc_aidin/robot/include
 
-extern MasterConfig gMasterConfig; // at "Types.h"
+extern MasterConfig gMasterConfig; // wbc_aidin/common/include/Types.h
 // 'extern' keyword indicates that this variable is defined elsewhere, possibly in a different source file.
 int main_helper(int argc, char** argv, RobotController* ctrl);
 
